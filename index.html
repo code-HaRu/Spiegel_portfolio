@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spiegel</title>
+
+  <!---------------------- css ---------------------->
+  <!-- リセットcss -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- jquery swiper.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css" integrity="sha512-aMup4I6BUl0dG4IBb0/f32270a5XP7H1xplAJ80uVKP6ejYCgZWcBudljdsointfHxn5o302Jbnq1FXsBaMuoQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- カスタム.css -->
+  <link rel="stylesheet" href="css/swiper.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- レスポンシブcss -->
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="site">
+
+    <header>
+      <div class="header">
+        <div class="header-bg">
+          <div class="header_img_1"></div>
+          <div class="header_img_2"></div>
+          <div class="header_img_3"></div>
+          <img src="" alt="">
+        </div><!-- /header-bg -->
+        <div class="header-top">
+          <h1 class="logo">Spiegel</h1>
+        </div><!-- /header-top -->
+        <div class="header-bottom">
+          <div class="btn_box header_btn">
+            <button class="btn">予約</button>
+          </div><!-- /btn_box -->
+        </div><!-- /header-bottom -->
+      </div><!-- /header -->
+    </header>
+
+    <main>
+      <div class="container">
+
+        <div class="gallery">
+          <div class="gallery-catchcopy">
+            <h2>あなただけのスタイルを実現</h2>
+            <p>Spiegelでは、自分を好きになるお手伝いをします。</p>
+          </div>
+
+          <div class="gallery_group">
+            <div class="gallery_area">
+              
+              <div class="-gray -gray_right">
+                <p class="gallery-title">cut</p>
+                <p class="gallery-sentence">あなたの髪質・骨格にあわせた確実なカット技術<br>
+                  ファッションやライフスタイル、トレンドをおさえたデザインを提案いたします。</p>
+              </div><!-- /-gray -->
+
+              <!-- Slider1-->
+              <div class="swiper-container swiper1">
+                <div class="swiper-wrapper" id="swiper-wrapper">
+              
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img class="slider-img" src="img/cut.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="slider-img" src="img/cut2.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="slider-img" src="img/cut:color.JPG" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="slider-img" src="img/cut:color2.JPEG" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="slider-img" src="img/cut:color3.JPEG" alt="">
+                    </div>
+
+                </div><!-- /swiper-wrapper -->
+
+                <!-- ページネーション -->
+                <div class="swiper-pagination page1" id="swiper-pagination"></div>
+
+                <!-- 前後のボタン -->
+                <div class="swiper-button-prev prev1 -sm"></div>
+                <div class="swiper-button-next next1 -sm"></div>
+
+              </div><!-- /swiper1 -->
+
+            </div><!-- /gallery_area -->
+          </div><!-- /gallery_group -->
+
+          <div class="gallery_group">
+            <div class="gallery_area">
+
+              <div class="-gray -gray_left">
+                <p class="gallery-title">color</p>
+                <p class="gallery-sentence">一人ひとりの髪の状態に合わせたカラー剤を使用<br>
+                  ダメージを抑えながら、しっかり色を出します。</p>
+              </div><!-- /-gray -->
+
+              <!-- Slider2 -->
+              <div class="swiper-container swiper2">
+                <div class="swiper-wrapper" id="swiper-wrapper">
+
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img class="slider-img" src="img/color2.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="slider-img" src="img/color.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="slider-img" src="img/color3.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="slider-img" src="img/color4.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="slider-img" src="img/color5.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="slider-img" src="img/color6.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="slider-img" src="img/color7.jpg" alt="">
+                    </div>
+
+                </div><!-- /swiper-wrapper -->
+    
+                <!-- ページネーション -->
+                <div class="swiper-pagination page2" id="swiper-pagination"></div>
+    
+                <!-- 前後のボタン -->
+                <div class="swiper-button-prev prev2 -sm"></div>
+                <div class="swiper-button-next next2 -sm"></div>
+                      
+              </div><!-- /swiper2 -->
+
+            </div><!-- /gallery_area -->
+          </div><!-- /gallery_group -->
+
+        </div><!-- /gallery -->
+      </div><!-- /container -->
+
+      <div class="gray_container">
+        <div class="clescription">
+          <div class="clescription_inner">
+            <p>「全日本美容技術選手権大会」<br>
+              「TOKYO HAIRDRESSING AWARDS」<br>
+              で入賞した技術力のある美容師が在籍しております。</p>
+            <div class="btn_box">
+              <button class="btn">予約</button>
+            </div>
+          </div><!-- /clescription_inner -->
+        </div><!-- /clescription -->
+      </div><!-- /gray_container -->
+
+      <div class="container">
+        <div class="service">
+          <div class="service_inner">
+            <h3>Spiegelでは、ヘアケアにも力を入れています。</h3>
+
+            <div class="service_group">
+
+              <div class="service_cade">
+                <img src="img/treatment2.jpg" alt="">
+                <p class="service-title">トリートメント</p>
+                <p class="service-sentence">ひとりひとりの髪質やお悩みに合わせたオーダーメイドの髪質改善。カラーやパーマで傷んでしまった髪を芯から補修&保湿し艶サラ髪へ。</p>
+              </div>
+
+              <div class="service_cade">
+                <img src="img/scalp massage.jpg" alt="">
+                <p class="service-title">ヘッドスパ</p>
+                <p class="service-sentence">美しい髪は健康な頭皮から。ダメージを受けた髪と頭皮をケアしながら、健やかな艶髪へ導きます。</p>
+
+              </div>
+
+              <div class="service_cade">
+                <img src="img/shampoo2.jpg" alt="">
+                <p class="service-title">ヘアケアシリーズ</p>
+                <p class="service-sentence">トリートメント界でもトップを走る商品を取り扱い。ホームケア商品もご用意しております。</p>
+              </div><!-- /service_cade -->
+
+            </div><!-- /service_group -->
+
+          </div><!-- /service_inner -->
+        </div><!-- /service -->
+      </div><!-- /container -->
+
+      <div class="gray_container">
+
+        <div class="price">
+          <h3>料金</h3>
+          <div class="price_inner">
+
+            <div class="price_content">
+
+              <div class="price_group">
+                <table>
+                  <tbody>
+                    <tr><th>カット</th><td>¥4,500</td></tr>
+                  </tbody>
+
+                  <tbody>
+                    <tr><th>カラー</th></tr>
+                    <tr><th>トリートメントカラー</th><td>¥6,000</td></tr>
+                    <tr><th>イルミナカラー</th><td>¥7,000</td></tr>
+                    <tr><th>ケアブリーチダブルカラー</th><td>¥12,500</td></tr>
+                    <tr><th>リタッチ</th><td>¥4,400</td></tr>
+                  </tbody>
+
+                  <tbody>
+                    <tr><th>トリートメント</th></tr>
+                    <tr><th>インプライムトリートメント</th><td>¥4,000</td></tr>
+                    <tr><th>超音波トリートメント </th><td>¥5,500</td></tr>
+                    <tr><th>酸熱トリートメント</th><td>8,800</td></tr>
+                    <tr><th>オリジナルトリートメント</th><td>¥5,000</td></tr>
+                  </tbody>
+                </table>
+              </div><!-- /price_group -->
+
+
+              <div class="price_group">
+                <table>
+                  <tbody>
+                    <tr><th>パーマ</th></tr>
+                    <tr><th>トリートメントパーマ</th><td>¥6,600</td></tr>
+                    <tr><th>ウォーターパーマ</th><td>¥7,000</td></tr>
+                    <tr><th>デジタルパーマ</th><td>¥12,100</td></tr>
+                    <tr><th>ストレートパーマ</th><td>¥8,800</td></tr>
+                  </tbody>
+
+                  <tbody>
+                    <tr><th>ヘッドスパ</th></tr>
+                    <tr><th>炭酸シャンプー</th><td>¥550</td></tr>
+                    <tr><th>ヘッドスパ</th><td>¥3,000</td></tr>
+                  </tbody>
+
+                  <tbody>
+                    <tr><th>その他</th></tr>
+                    <tr><th>ヘアアレンジ</th><td>¥3,850</td></tr>
+                  </tbody>
+
+
+
+                </table>
+
+              </div><!-- /price_group -->
+
+            </div><!-- /price_content -->
+
+            <div class="btn_box price_btn">
+              <button class="btn">予約</button>
+            </div><!-- /price-btn -->
+
+          </div><!-- /price_inner -->
+
+        </div><!-- /price -->
+
+      </div><!-- /gray_container -->
+
+      <div class="container">
+        <div class="map">
+          <h3>アクセス</h3>
+          <div class="map_inner">
+            
+            <div class="map_area">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d216256.30089617643!2d139.56763260272223!3d35.66818526194948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b857628235d%3A0xcdd8aef709a2b520!2z5p2x5Lqs6YO95p2x5Lqs!5e0!3m2!1sja!2sjp!4v1681795948009!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div><!-- map_group -->
+
+            <div class="map_group">
+              <div class="map_box">
+                <p>ヘアーサロン Spiegel</p>
+                <p class="address">〒△△△-△△△　東京都〇〇区〇-〇-〇<br>
+                  Tel ×××-×××-××××<br>
+                  open 9:00<br>
+                </p>
+                <div class="btn_box map_btn_box">
+                  <button class="btn map_btn">予約</button>
+                </div><!-- /map_btn -->
+              </div><!-- map_box -->
+            </div><!-- /map_group -->
+
+          </div><!-- /map_inner -->
+
+        </div><!-- /map -->
+      </div><!-- /container -->
+
+    </main>
+
+    <footer>
+      <div class="gray_container" id="gray_container-close">
+        <div class="footer">
+          <a href="#open01" class="window_link"><small>©Spiegel.portfolio</small></a>
+          
+          <div id="modal">
+            <div id="open01" class="open">
+              <a href="#gray_container-close" class="close_overlay"></a>
+              <!-- 窓外の閉じるボタン -->
+              <div class="modal_window">
+
+                <div class="window_header">
+                  <div class="window-wrapper">
+                    <div class="window-top">
+
+                      <a href="#" class="close_btn">×</a><!-- 閉じるボタン -->
+                      
+                    </div><!-- /window-top -->
+                  </div><!-- /window-wrapper -->
+                </div><!-- /window_header -->
+
+                <div class="window-content">
+                  <div class="window-wrapper">
+                    <div class="window-area">
+
+                      <p class="mw_text">当サイトは、ポートフォリオ作品となります。</p>
+                      <p class="mw_text">当サイトにて使用した写真は、写真素材サイトおよび美容室から許可を得ております。</p>
+
+                    </div><!-- /window-area -->
+                  </div><!-- /window-wrapper -->
+                </div><!-- /window-content -->
+              </div><!--/.modal_window--> 
+            </div><!--/#open01-->
+          </div><!-- /modal -->
+
+        </div><!-- footer -->
+      </div><!-- /gray_container -->
+    </footer>
+
+    
+    <!-- script -->
+    <!-- jquery swiperワイパーを使うために-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jquery swiper  プラグイン -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js" integrity="sha512-BABFxitBmYt44N6n1NIJkGOsNaVaCs/GpaJwDktrfkWIBFnMD6p5l9m+Kc/4SLJSJ4mYf+cstX98NYrsG/M9ag==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- カスタム.js -->
+    <script src="js/script.js"></script>
+
+  </div><!-- /site -->
+</body>
+</html>
